@@ -1,4 +1,6 @@
 # VeraDemo.NET - Blab-a-Gag
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandrewgc%2Fverademo-dotnetcore.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandrewgc%2Fverademo-dotnetcore?ref=badge_shield)
+
 
 ## About
 
@@ -49,3 +51,6 @@ docker run --rm -it -p 127.0.0.1:8080:8080 --entrypoint bash -v "$(pwd)/app:/app
 ```
 
 You will then need to manually run the two commands within `/entrypoint.sh`. The first starts the DB in the background whereas the second compiles and runs the application. Typically a container shouldn't have multiple services but this was done for convenience.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fandrewgc%2Fverademo-dotnetcore.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fandrewgc%2Fverademo-dotnetcore?ref=badge_large)
